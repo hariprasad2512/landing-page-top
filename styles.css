@@ -1,4 +1,54 @@
 *{
     box-sizing: border-box;
+    font-family: Roboto;
+    
 }
 
+.header, .footer, .hero-section{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+/* Font size: 24px
+Color: #F9FAF8 */
+
+.header .logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+/* Font size: 48px
+Color: #F9FAF8
+Weight: 900 */
+
+.hero-title{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-section .hero-subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+button, .cta-container {
+    background-color: #3882F6;
+    color: white;
+}
+
+
+.random-section .random-text{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+
+.quote-section .quote-text{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
