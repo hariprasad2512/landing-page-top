@@ -149,10 +149,14 @@
     padding: 100px;
     background-color: #e5e7eb;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
-
+.quote-container {
+  width : 750px;
+  display: flex;
+  flex-direction: column;
+}
 
 .quote-section .quote-text{
     font-size: 36px;
@@ -164,46 +168,37 @@
 .quote-section .quote-subtext{
     font-weight: 800;
     font-size: 20px;
-    display: flex;
-    justify-content: flex-end;
+    align-self: flex-end;
+    
 }
 
 .cta-section{
-    padding: 80px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 360px;
 }
 
 .cta-container {
     background-color: #3882F6;
     color: white;
-    padding: 30px 60px;
+    padding: 48px;
     border-radius: 10px;
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-evenly;
+    width: 850px;
 }
 
-.cta-container .cta-left .cta-heading{
+.cta-left .cta-heading{
     font-weight: 700;
     font-size: 18px;
 
 }
-.cta-container .cta-left .cta-subheading {
+.cta-left .cta-subheading {
     font-weight: 400;
     font-size: 15px;
 }
 
-
-.cta-left {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.cta-right {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .cta-container .cta-button{
     color: white;
